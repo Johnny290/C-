@@ -103,7 +103,7 @@ int main3()
 		cout << "Number: "<< num << " Not found" << endl;
 	}
 
-	delete[] pole; //NEZAPOMÍNAT!!!
+	delete[] pole;
 
 	return 0;
 }
