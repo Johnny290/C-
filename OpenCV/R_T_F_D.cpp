@@ -21,6 +21,7 @@ int main()
 	CascadeClassifier faceCascade;
 	faceCascade.load("Resources/haarcascade_frontalface_default.xml");
 
+
 	while (true)
 	{
 		cap.retrieve(img);

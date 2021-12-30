@@ -10,6 +10,8 @@ using std::endl;
 using std::vector;
 using std::to_string;
 
+/*Document Scanner*/
+
 Mat imgOriginal, imgGray,imgBlur, imgCanny, imgThr, imgDil, imgErode, imgWarp, imgCrop;
 vector<Point> initialPoints, docPoints;
 
