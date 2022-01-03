@@ -1,0 +1,8 @@
+C++
+{
+OpenCV
+}
+
+Python:
+  img2pdf
+  PIL
