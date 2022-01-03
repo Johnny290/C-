@@ -112,7 +112,7 @@ Mat getWarp(Mat img, vector<Point> points, float w, float h)
 
 int main()
 {
-	string path = "Resources/doc.jpg";
+	string path = "Res/doc.jpg";
 	imgOriginal = imread(path);
 
 	// Use if image is too big
@@ -134,7 +134,7 @@ int main()
 	imgCrop = imgWarp(roi);
 
 	// Saving image
-	bool check = imwrite("Resources/ImgForConversion.jpg", imgCrop);
+	bool check = imwrite("Res/ImgForConversion.jpg", imgCrop);
 	if (check == false) {
 		cout << "Saving the image, FAILED" << endl;
 
