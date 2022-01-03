@@ -2,7 +2,7 @@
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
 #include <iostream>
-#include <Python.h>
+#include<Python.h>
 #include <stdio.h>
 #include <conio.h>
 
@@ -141,8 +141,9 @@ int main()
 		cin.get();
 		return -1;
 	}
-
+	cout << endl;
 	cout << "Successfully saved the image. " << endl;
+	cout << endl;
 
 	//imshow("Image", imgOriginal);
 	//imshow("Image Dilation", imgThr);
