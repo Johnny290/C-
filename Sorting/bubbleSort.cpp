@@ -1,4 +1,4 @@
-/*Bubble sort*/
+// Bubble sort
 
 #include <iostream>
 #include <ctime>
