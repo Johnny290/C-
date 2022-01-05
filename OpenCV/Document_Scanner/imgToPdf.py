@@ -1,3 +1,4 @@
+# Image to PDF converter
 import img2pdf
 from PIL import Image
 import os
