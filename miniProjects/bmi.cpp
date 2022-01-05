@@ -1,3 +1,5 @@
+// Simple BMI calculator
+
 #include <iostream>
 using std::cout;
 using std::cin;
