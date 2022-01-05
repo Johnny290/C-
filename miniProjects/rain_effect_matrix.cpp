@@ -1,3 +1,5 @@
+// Matrix rain effect in terminal
+
 #include <iostream>
 #include <windows.h>
 
