@@ -1,4 +1,4 @@
-//Document scanner
+// Document scanner
 
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
