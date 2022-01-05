@@ -35,6 +35,5 @@ int main()
 		imshow("Cam", img);
 		waitKey(1);
 	}
-
 	return 0;
 }
