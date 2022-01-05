@@ -49,7 +49,7 @@ void printA(int* pole, int sz)
 	cout << endl;
 }
 
-int main1()
+int main()
 {
 	time_t tim = chrono::system_clock::to_time_t(chrono::system_clock::now());
 	srand((unsigned int)tim);
