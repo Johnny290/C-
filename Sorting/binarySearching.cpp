@@ -1,4 +1,5 @@
 // Binary searching / Bubble sort
+
 #include <iostream>
 #include <chrono>
 #include <ctime>
@@ -77,7 +78,7 @@ int binarySearching(int *pole, int left, int right, int num)
 
 
 
-int main3()
+int main()
 {
 	time_t tim = chrono::system_clock::to_time_t(chrono::system_clock::now());
 	srand((unsigned int)tim);
