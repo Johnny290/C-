@@ -16,8 +16,6 @@ using std::endl;
 using std::vector;
 using std::to_string;
 
-/*Document Scanner*/
-
 Mat imgOriginal, imgGray,imgBlur, imgCanny, imgThr, imgDil, imgErode, imgWarp, imgCrop;
 vector<Point> initialPoints, docPoints;
 
@@ -80,6 +78,7 @@ void drawPoints(vector<Point> points, Scalar color)
 	}
 }
 
+// Setting correct points
 vector<Point> reorder(vector<Point> points)
 {
 	vector<Point> newPoints;
