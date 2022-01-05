@@ -74,7 +74,7 @@ void printA(int* pole, int sz)
 	}
 }
 
-int main2()
+int main()
 {
 	std::time_t tim = std::chrono::system_clock::to_time_t(std::chrono::system_clock::now());
 	srand((int)tim);
