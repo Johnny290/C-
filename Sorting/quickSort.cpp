@@ -1,4 +1,4 @@
-//Quick sort
+// Quick sort
 
 #include <iostream>
 #include <ctime>
